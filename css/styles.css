@@ -1,0 +1,41 @@
+
+body{
+    background-color: rgb(58, 57, 57);
+}
+.container{
+    margin-inline: auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    font-family: sans-serif;
+    width: 900px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.flag{
+    width: 300px;
+    height: 200px;
+    border: 2px solid white;
+}
+.flag1{
+    background-image: radial-gradient( circle, red 25%, white 25%);
+}
+.flag2{
+    background-image: radial-gradient(circle at calc(50% - 50px) center, yellow 22%, rgb(94, 184, 209) 22%);
+
+}
+.flag3{
+    background-image: radial-gradient(circle, white 25%, transparent 20%),
+    linear-gradient(red 25%, blue 25% 75%, red 75%);
+}
+.bigFlag{
+    margin-top: 50px;
+    width: 900px;
+    height: 500px;
+    border: 5px solid white;
+    background-image: radial-gradient(circle at bottom center, transparent 15%, red 15% 20%, orange 20% 25%, yellow 25% 30%, green 30% 35%, blue 35% 40%, purple 40% 45%, pink 45% 50%, grey 50% 55% );
+}
